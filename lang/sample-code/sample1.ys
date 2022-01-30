@@ -1,0 +1,15 @@
+@entry_point
+closed (string -> int) 
+    >> main
+{
+    int a <- 1;
+    int b <- 1;
+    int x <- a + b;
+    string y <- "i found ";
+
+    std.print (std.concat(y, x));
+
+    return 0;
+}
+
+
